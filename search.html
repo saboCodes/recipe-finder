@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/search.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Tasty Food</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact us</a>
+            </li>
+
+            <!-- <li><i class="bx bx-moon change-theme" id="theme-button"></i></li> -->
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="change-theme">
+      <div class="container initial dark-theme">
+        <h1 class="brand">Recipe Finder</h1>
+        <form>
+          <input type="text" placeholder="Search Your Recipe..." />
+          <ion-icon name="search"></ion-icon>
+        </form>
+        <div class="search-result">
+          <!-- <div class="item">
+          <img src="./img-1.jpg" alt="">
+          <div class="flex-container">
+            <h1 class="title">This is a recipe item</h1>
+            <a class="view-btn" href="#">View Recipe</a>
+          </div>
+          <p class="item-data">Calories: 120</p>
+        </div> -->
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

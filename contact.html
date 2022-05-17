@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/css/contact.css" />
+  </head>
+  <body>
+    <div class="contact-container">
+      <div class="left-col"></div>
+
+      <header class="header-link">
+        <a href="index.html">Tasty Food</a>
+      </header>
+
+      <div class="right-col">
+        <h1>Contact us</h1>
+        <p>
+          <b>We would love to know more. </b> We at times food would love to
+          know how we can make your experience better.
+        </p>
+
+        <form id="contact-form" method="post">
+          <label for="name">Full name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email Address"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            rows="6"
+            placeholder="Your Message"
+            id="message"
+            name="message"
+            required
+          ></textarea>
+
+          <button type="submit" id="submit" name="submit">Send</button>
+
+          <div class="back-link div">
+            <a href="/index.html">Back</a>
+          </div>
+        </form>
+        <div id="error"></div>
+        <div id="success-msg"></div>
+      </div>
+    </div>
+    <script src="assets/js/contact.js"></script>
+  </body>
+</html>
